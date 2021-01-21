@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_subtitle_subtitle_projects",
+  "info": {
+    "name": "subtitleProject",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

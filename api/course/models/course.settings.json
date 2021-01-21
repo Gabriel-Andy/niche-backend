@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "course",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitleProject": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subtitle.subtitle-project"
+    },
+    "video": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description-video.video"
+    }
+  }
+}

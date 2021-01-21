@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_contents",
+  "info": {
+    "name": "video",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "categorie": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "integer",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "typeOfProject": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "nameofTheProject": {
+      "type": "string",
+      "required": true
+    },
+    "videoUrl": {
+      "type": "string",
+      "required": true
+    },
+    "videoDescription": {
+      "type": "text",
+      "required": true
+    },
+    "github": {
+      "type": "string",
+      "required": true
+    },
+    "sandbox": {
+      "type": "string",
+      "required": true
+    },
+    "previousTitle": {
+      "type": "string",
+      "required": true
+    },
+    "nextTitle": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameofTheProject",
+      "required": true
+    }
+  }
+}
